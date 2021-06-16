@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="8dp"
+    tools:context=".fragment.MobFragment">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="120dp"
+        android:id="@+id/Easypaisa"
+        android:src="@drawable/profile"
+        app:civ_border_color="@color/cardview_dark_background"
+        app:civ_border_width="2dp"
+        android:layout_below="@id/coinsTv"
+        android:layout_centerHorizontal="true"
+        android:layout_height="120dp"/>
+
+    <TextView
+        android:id="@+id/coinsTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="16dp"
+        android:drawableEnd="@drawable/ic_coins"
+        android:drawableRight="@drawable/ic_coins"
+        android:drawablePadding="8dp"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:id="@+id/etL"
+        android:layout_centerInParent="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/nameET"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Account Holder Name" />
+
+        <EditText
+            android:id="@+id/numberET"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Phone Number" />
+
+    </LinearLayout>
+
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etL"
+        android:layout_marginTop="18dp">
+
+        <!--TODO: replace mobile with your own name like
+          TODO: (PAYTM or EASYPAISA, JAZZCASH)-->
+        <RadioButton
+            android:id="@+id/phone50"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mobile Pay 50RS (6000)" />
+
+
+        <RadioButton
+            android:id="@+id/phone100"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mobile Pay 100RS (12000)" />
+
+
+    </RadioGroup>
+
+
+    <Button
+        android:id="@+id/submitBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="22dp"
+        android:background="@drawable/btn"
+        android:backgroundTint="#FFEB3B"
+        android:minWidth="160dp"
+        android:text="Withdraw" />
+
+</RelativeLayout>

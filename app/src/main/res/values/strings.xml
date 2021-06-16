@@ -1,0 +1,72 @@
+<resources>
+    <string name="app_name">Rechie rich</string>
+    <string name="login_email_hint">Email</string>
+    <string name="login_password_hint">Confirm Password</string>
+
+    <string name="action_policy_title">Privacy Policy</string>
+
+    <!--  Todo:  Replace this with your own app_id and adUnit id ca-app-pub-7226893821185771~1188152499 -->
+    <string name="admob_app_id">ca-app-pub-3940256099942544~3347511713</string>
+    <string name="admob_banner_id">ca-app-pub-9016725914420344/7186044976</string>
+    <string name="admob_interstitial_id">ca-app-pub-9016725914420344/4970945175</string>
+    <string name="Admod_rewarded_id">ca-app-pub-9016725914420344/6443862842</string>
+
+    <!--Todo:  Replace this with your own adUnit id-->
+    <string name="unity_app_id">4076311</string>
+    <string name="unity_InterstitialAdsId_id">Interstitial_Android</string>
+    <string name="unity_rewarded_id">Rewarded</string>
+
+
+    <!--  Todo:  Replace this with your own adUnit id-->
+    <string name="fb_banner_id">549167759165615_549192715829786</string>
+    <string name="fb_interstitial_id">3159252790861841_3159260170861103</string>
+    <string name="fb_rewarded_id_2">3159252790861841_3159256577528129</string>
+
+    <string name="pollfish_api">8b509fa5-d4be-4240-a397-aa131df11316</string>
+    <string name="ayet_api">6c348001c9cf48d0cea729ff0dc706a9</string>
+    <string name="ayet_adslot">bakery seattle</string>
+
+    <string name="Hading">HOW IT WORKS</string>
+    <string name="Text">This App Is Designed For Earning Some Extra Money Using Your Mobile Phone and Utilising Your Mobile Internet Data.</string>
+    <string name="text1"> 1) You Can Earn Money by Just Daily Check-ins. </string>
+    <string name="text2"> 2) You can Earn Money by Spinning The Wheel Two Times Just For Free.</string>
+    <string name="text3"> 3) You Can Get Extra Spin by Just Watching a Single Video Add. </string>
+    <string name="text4"> 4) You Can Earn Money by just Completing a Simple Servay. </string>
+    <string name="text5"> 5)You can earn money simply by just watching videos.</string>
+    <string name="text6"> 6) You can earn money by just referring to your friends.</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="new_user_register_now">New user? Register Now</string>
+    <string name="back_to_login">Back to, Login</string>
+    <string name="recover">Recover</string>
+    <string name="logout">Logout</string>
+    <string name="reset_your_email">Check your email!</string>
+    <string name="verify_your_email">Verify your email address</string>
+    <string name="watch_video">Watch Video</string>
+    <string name="update">Update</string>
+    <string name="reset_email">Reset</string>
+    <string name="verify_email">Verify</string>
+
+    <string name="text_2">In Oder to start using your Earning App account,
+        you need to confirm your email address.</string>
+    <string name="text_3">We just send an email with a link to reset your password.</string>
+    <string name="text_4">If you did not sign up for this
+        account you can ignore this email and the account will be deleted.</string>
+    <string name="todo">TODO</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="invite_amp_earn"><![CDATA[Invite & Earn]]></string>
+
+
+    <string name="umar_farooq">Umar Farooq</string>
+    <string name="your_name">YOUR NAME</string>
+    <string name="umargg4040_gmail_com">umargg4040@gmail.com</string>
+    <string name="your_email">YOUR EMAIL</string>
+
+    <string name="profile">Profile</string>
+
+    <!--    Also Replace google-services.json file-->
+    <!--    then paste your file-->
+
+</resources>

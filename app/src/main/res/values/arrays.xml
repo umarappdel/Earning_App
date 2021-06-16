@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="ld_activityScreenTitles">
+        <item>Home</item>
+        <item>My Profile</item>
+        <item>Privacy</item>
+        <item>Help</item>
+        <item>Rate us</item>
+        <item />
+        <item>Exit</item>
+    </string-array>
+
+    <array name="ld_activityScreenIcons">
+        <item>@drawable/ic_baseline_home_24</item>
+        <item>@drawable/ic_baseline_person_24</item>
+        <item>@drawable/ic_baseline_privacy_tip_24</item>
+        <item>@drawable/ic_baseline_help_24</item>
+        <item>@drawable/ic_baseline_star_24</item>
+        <item>0</item>
+        <item>@drawable/ic_baseline_login_24</item>
+    </array>
+
+</resources>

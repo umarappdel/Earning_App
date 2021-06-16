@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "97326231905",
+    "project_id": "earning-app-84c19",
+    "storage_bucket": "earning-app-84c19.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:97326231905:android:6ab4c3b3f21542ca099520",
+        "android_client_info": {
+          "package_name": "com.umarappdel.earningapk"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "97326231905-87ju65t8p2sa4p69hc56g0bm3i9j394s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.umarappdel.earningapk",
+            "certificate_hash": "13b8fb7d54d0e2acd14428b306eba2c916e48d58"
+          }
+        },
+        {
+          "client_id": "97326231905-jmno37s02sgnrbb7vt93aqkbjvrpdjpg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDjfm-WvkRK6QNucwbjpOyqs-wEzpFuoDs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "97326231905-jmno37s02sgnrbb7vt93aqkbjvrpdjpg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
